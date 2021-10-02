@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#app{
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.cardContainer{
+	width: 603px;
+	height: 612px;
+	background: #FFFFFF;
+	box-shadow: 0px 34px 35px -15px rgba(12, 10, 84, 0.2);
+	border-radius: 10px;
+}
+.titleContainer{
+	display: flex;
+	justify-content: center;
+	padding-top: 70px;
+}
+.title{
+	width: 286px;
+	height: 64px;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 145%;
+}
+.googleSignup{
+	padding-top: 65px;
+	display: flex;
+	justify-content: center;
+}
+.facebookSignup{
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+.twitterSignup{
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+button{
+	width: 307px;
+	height: 60px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 200%;
+	text-align: center;
+	cursor: pointer;
+}
+.googleSignup button{
+	background: #D14B3E;
+}
+.facebookSignup button{
+	background: #3D5A96;
+}
+.twitterSignup button{
+	background: #58ACEA;
+}
+input[type="checkbox"]{
+	width: 25px;
+	height: 25px;
+	border: 1px solid #9B9BCF;
+	cursor: pointer;
+}
+.newsletterContainer{
+	display: flex;
+	justify-content: center;
+	padding-top: 51px;
+}
+.newletter{
+	display: inline;
+	width: 308px;
+	height: 52px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+}
